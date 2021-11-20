@@ -1,1 +1,4 @@
 /quiz1/
+.ipynb_checkpoints/*
+.git/*
+.jovianrc
