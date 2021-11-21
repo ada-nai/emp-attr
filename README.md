@@ -8,6 +8,9 @@ Analytics Vidhya Job-A-Thon November 2021
 - The target variable in the train set will be generated for each record as a binary output (0 or 1, with 1 indicating attrition)  
 - Inspiration to developing the approach has been derived from [Korichi et al.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTstyCgKr0AhXr8HMBHRHNDqoQFnoECAgQAQ&url=https%3A%2F%2Fwww.esann.org%2Fsites%2Fdefault%2Ffiles%2Fproceedings%2F2021%2FES2021-110.pdf&usg=AOvVaw1KAM5JbjCDVAQJqBXg7f5q)  
 
+### Notebook
+Run Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ada-nai/emp-attr/HEAD?labpath=Notebook.ipynb)
+
 ## Data Processing  
 - Add the last working date to all records as applicable (for attritioned emp_id)  
 - Evaluate `tenure` of emp_id for each record {record_date - dateofjoining}    
